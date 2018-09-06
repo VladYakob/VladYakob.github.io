@@ -1,0 +1,998 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Безупречная кухня</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta property="og:image" content="path/to/image.jpg">
+	<!--<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">-->
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+	<!--<style>body { opacity: 0; overflow-x: hidden; } html { background-color: #fff; }</style>-->
+
+</head>
+
+<body>
+	
+<!-- bg dark-->	
+<div class="bg_dark"></div>	
+	
+<div class="succes_form">
+	<div class="circle"></div>
+	<h2 class="h2 green_h2">Ваша заявка отправлена!</h2>
+	<p class="p">В ближайшее время с вами свяжется наш<br>
+	менеджер для уточнения деталей
+	</p>
+	<div class="hrestick"><span></span><span></span></div>
+</div>	
+	
+<!--modal_window_1 -->	
+<div class="modal_window_1">
+	<div class="hrestick"><span></span><span></span></div>
+    <div class="modal_heder">
+       <h3 class="modal_h4">ЗАКАЖИТЕ
+ОБРАТНЫЙ ЗВОНОК</h3> 
+    </div>  
+    <form name="modal_window_1" id="form_1">
+        <label>ВАШЕ ИМЯ</label><br>
+        <input type="text" placeholder="Иван" name="user1" value=""><br>
+        <label>КОНТАКТНЫЙ ТЕЛЕФОН</label><br>
+        <input class="masc_phone" type="text" placeholder="+38 (097) 23 454" name="phone1"><br>
+		<label>УДОБНАЯ ДАТА И ВРЕМЯ</label><br>
+        <input type="text" placeholder="Например: 30 март, с 15 до 25" name="data1"><br>
+        <button type="button" id="modal_button_1">Заказать звонок</button>
+    </form>
+    <p class="p p_popap">Дизайнер позвонит вам по указанному 
+номеру в течение 5 минут</p>
+</div>	
+		
+	
+	
+	
+	
+	
+<!--modal_window_2 -->	
+<div class="modal_window_2">
+	<div class="hrestick"><span></span><span></span></div>
+    <div class="modal_heder">
+       <h3 class="modal_h4">УЗНАЙТЕ АКТУАЛЬНУЮ 
+ЦЕНУ НА КУХНИ </h3> 
+    </div>  
+    <form name="modal_window_2" id="form_2">
+        <label>ВАШЕ ИМЯ</label><br>
+        <input type="text" placeholder="Иван" name="user2" value=""><br>
+        <label>КОНТАКТНЫЙ ТЕЛЕФОН</label><br>
+        <input class="masc_phone" type="text" placeholder="+38 (097) 23 454" name="phone2"><br>
+        <button type="button" id="modal_button_2">Заказать звонок</button>
+    </form>
+    <p class="p p_popap">Специалист компании свяжется с вами в течение 5 минут и сообщит актуальную цену</p>
+</div>	
+	
+	
+	
+<!--modal_window_3 -->	
+<div class="modal_window3">
+	<div class="hrestick"><span></span><span></span></div>
+    <div class="modal_heder">
+       <h3 class="modal_h4">ПОЛУЧИТЕ КАТАЛОГ</h3> 
+        <p class="p">лучших кухонь Vesta за 2018 год</p>
+    </div>  
+    <form name="modal_window_3" id="form_3">
+        <label>ВАШЕ ИМЯ</label><br>
+        <input type="text" placeholder="Иван" name="user3"><br>
+        <label>КОНТАКТНЫЙ ТЕЛЕФОН</label><br>
+        <input type="text" placeholder="+38 (097) 23 454" name="phone3" class="masc_phone"><br>
+        <label>ВАШ E-MAIL</label><br>
+        <input type="email" placeholder="mail@gmail.com" name="mail3"><br>
+        <button type="button" id="modal_button_3">Получить каталог</button>
+    </form>
+    <p class="p p_popap">Мы отправим каталог на указанный
+e-mail в течение 3-х минут</p>
+</div>  
+	
+<!--modal_window_4 -->	
+<div class="modal_window_4">
+	<div class="hrestick"><span></span><span></span></div>
+    <div class="modal_heder">
+       <h3 class="modal_h4">ВЫЗОВИТЕ ЗАМЕРЩИКА
+		   БЕСПЛАТНО</h3> 
+    </div>  
+    <form name="modal_window_4" id="form_4">
+        <label>ВАШЕ ИМЯ</label><br>
+        <input type="text" placeholder="Иван" name="user4"><br>
+        <label>КОНТАКТНЫЙ ТЕЛЕФОН</label><br>
+        <input type="text" placeholder="+38 (097) 23 454" name="phone4" class="masc_phone"><br>
+        <label>УДОБНАЯ ДАТА И ВРЕМЯ</label><br>
+        <input type="text" placeholder="Например: 30 март, с 15 д 25" name="data4"><br>
+		<label>АДРЕС</label><br>
+		<textarea placeholder="Ваш адрес..." name="adress4"></textarea><br>
+		<label>КОММЕНТАРИЙ ИЛИ ВОПРОС</label><br>
+		<textarea placeholder="Ваш вопрос..." name="question4"></textarea><br>
+        <button type="button" id="modal_button_4">Вызвать замерщика</button>
+    </form>
+    <p class="p p_popap">Менеджер перезвонит вам в течение 
+15 минут для уточнения деталей</p>
+</div>  	
+	
+	
+	
+<!--modal_window_5 -->	
+<div class="modal_window_5">
+	<div class="hrestick"><span></span><span></span></div>
+    <div class="modal_heder">
+       <h3 class="modal_h4">ПОЛУЧИТЕ ПОДАРОК 
+		   К НОВОЙ КУХНЕ ОТ VESTA</h3> 
+    </div>  
+    <form name="modal_window_5" id="form_5">
+        <label>ВАШЕ ИМЯ</label><br>
+        <input type="text" placeholder="Иван" name="user5"><br>
+        <label>КОНТАКТНЫЙ ТЕЛЕФОН</label><br>
+        <input type="text" placeholder="+38 (097) 23 454" name="phone5"  class="masc_phone"><br>
+		<label>КОММЕНТАРИЙ ИЛИ ВОПРОС</label><br>
+		<textarea placeholder="Ваш вопрос..." name="question5"></textarea><br>
+        <button type="button" id="modal_button_5">Получить подарок</button>
+    </form>
+    <p class="p p_popap">Менеджер перезвонит вам в течение 
+		15 минут для уточнения деталей</p>
+</div> 	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+    
+<!-- header -->    
+<header class="header clearfix">
+    <div class="wrapper">
+        <div class="header_left clearfix">
+            <a href="index.html" class="logo">
+            </a>
+            <p class="slogan">
+				Встроенные кухни на заказ
+				в Николаеве
+            </p>
+        </div>
+        <div class="header_right">
+            <div class="header_phone">38 (096) 234-76-56</div>
+            <a href="#" class="firs_link">Заказать звонок</a>
+        </div>
+    </div>
+</header>
+    
+<!-- one_sceen -->
+<section class="one_screen">
+    <div class="wrapper">
+         <h1 class="h1">БЕЗУПРЕЧНАЯ КУХНЯ НА ЗАКАЗ ЗА 30 ДНЕЙ</h1>
+        <p class="one_screen_p">НАПРЯМУЮ ОТ ПРОИЗВОДИТЕЛЯ</p>
+        <h5 class="h5"><span>3D дизайн-проект</span> по планировке любой сложности в день обращения</h5>
+    </div>
+    <article class="one_screen_forms">
+        <div class="wrapper">
+      
+            <div class="form">
+                <h2 class="h2">ОСТАВЬТЕ ЗАЯВКУ</h2>
+                <p class="form_top_text">на расчет стоимости кухни</p>
+				
+				<!-- form_1 -->
+				<form name="form_1" id="form_1">
+					<p class="title_input">ВАШЕ ИМЯ</p>
+					<input type="text" placeholder="Иван" name="user6" value="">
+					
+                	<p class="title_input">КОНТАКТНЫЙ ТЕЛЕФОН</p>
+					<input type="text" placeholder="+(380) 96 345 654" name="phone6" class="masc_phone">
+					
+					<p class="title_input">ВАШЕ ПОЖЕЛАНИЕ</p>
+					<textarea name="comment6" cols="40" rows="3" placeholder="Ваше пожелание..."></textarea>
+					
+                	<p class="title_input">БЮДЖЕТ</p>
+					<input class="select1" type="text" placeholder="Бюджет не определен" name="select6">
+					
+                    <div class="options">
+                        <div class="option" data-option="До 100 000 руб.">До 100 000 руб.</div>
+                        <div class="option" data-option="100 000 - 150 000 руб.">100 000 - 150 000 руб.</div>
+                        <div class="option" data-option="150 000 - 200 000 руб.">150 000 - 200 000 руб.</div>
+                        <div class="option"  data-option="от 250 000 руб.">от 250 000 руб.</div>
+                    </div>
+                	<a href="#" id="button_1">Рассчитать стоимость</a>
+				</form>
+
+                <p class="form-bottom_text">
+					Дизайнер позвонит вам по указанному <br>
+                    номеру в течение 5 минут</p>
+                
+                    <!-- discount--->
+                <div class="discount">
+                    <div class="title_discount">АКЦИЯ!<br>
+                        НАМ 15 ЛЕТ
+                    </div>
+                    <p>ОСТАВЬТЕ ЗАЯВКУ НА  <br>РАСЧЕТ СТОИМОСТИ <br> КУХНИ</p>
+                    <p class="get_discount">
+                        И ПОЛУЧИТЕ
+						СКИДКУ
+						15 000 РУБ.
+						ИЛИ ПОДАРОК
+						НА ВЫБОР!
+                    </p>
+                    <div class="timer">
+                        <p class="title_timer">ДО КОНЦА АКЦИИ ОСТАЛОСЬ</p>
+                        <div class="time" id="clockdiv">
+							 <div>
+								<span class="days"></span>
+								<div class="smalltext">ДЕНЬ</div>
+							 </div>
+							 <div>
+								<span class="hours"></span>
+								<div class="smalltext">ЧАС.</div>
+							 </div>
+							 <div>
+								<span class="minutes"></span>
+								<div class="smalltext">МИН.</div>
+							 </div>
+							 <div>
+								<span class="seconds"></span>
+								<div class="smalltext">СЕК.</div>
+							 </div>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+</section>    
+    
+    
+<!-- experience-->
+<section class="experience">
+    <div class="wrapper">
+        <h2 class="h2"><img src="img/expirians.png">— 15 ЛЕТ БЕЗУПРЕЧНОГО КАЧЕСТВА</h2>
+        <p class="p">За более чем 15 лет работы мы разработали уникальные технологии производства, создали первоклассный сервис, а главное — научились предвосхищать ожидания клиентов, создавая для них эксклюзивные кухни под заказ.
+		</p>
+        <p class="p">Ощутите комфорт на кухне, идеально встроенной в ваш дом и отражающей
+			характер владельца — ваш характер.
+		</p>
+    </div>
+</section>
+
+    
+<!--consultation -->
+<section class="consultation">
+    <div class="wrapper">
+        <h1 class="h2">ПОЛУЧИТЕ КОНСУЛЬТАЦИЮ
+					ДИЗАЙНЕРА И РАСЧЕТ СТОИМОСТИ
+					КУХНИ ПРЯМО СЕЙЧАС!
+        </h1>
+                  
+        <article class="clearfix">
+             <div class="form form_cons">
+                <h2 class="h2">ОСТАВЬТЕ ЗАЯВКУ</h2>
+                <p class="form_top_text">на расчет стоимости кухни</p>
+				 
+				 <!--form_2-->
+				 <form name="form_2" id="form_2">
+				 	<p class="title_input">ВАШЕ ИМЯ</p>
+                	<input type="text" placeholder="Вася" name="user7">
+				 
+					 <p class="title_input">КОНТАКТНЫЙ ТЕЛЕФОН</p>
+                	<input type="text" placeholder="+(380) 96 345 654" name="phone7" class="masc_phone">
+				 
+					 <p class="title_input">ВАШЕ ПОЖЕЛАНИЕ</p>
+					 <textarea name="comment7" cols="40" rows="3" placeholder="ВАШЕ ПОЖЕЛАНИЕ..." ></textarea>
+				 
+					 <p class="title_input">БЮДЖЕТ</p>
+					 <input class="select2" type="text" placeholder="Бюджет не определен" name="select7">
+                    	<div class="options2">
+							<div class="option2" data-option="от 100 000 руб.">от 100 000 руб.</div>
+							<div class="option2" data-option="100 000 - 150 000 руб.">100 000 - 150 000 руб.</div>
+							<div class="option2" data-option="150 000 - 200 000 руб.">150 000 - 200 000 руб.</div>
+							<div class="option2"  data-option="от 250 000 руб.">от 250 000 руб.</div>
+                    	</div>
+                	<a href="#" id="button_2">Рассчитать стоимость</a>
+				 </form> 
+                <p class="form-bottom_text">Дизайнер позвонит вам по указанному<br>
+                    номеру в течение 5 минут</p> 
+            </div>
+        <!-- form_right-->
+            <div class="form_right">
+                <h3 class="h3">ЗАПОЛНИТЕ ФОРМУ</h3>
+                <p class="p">и профессиональный дизайнер
+					свяжется с вами в течение 5 минут.<br>
+                   По итогам консультации вы получите:
+                </p>
+                <ul>
+                    <li><img src="img/consultation/1.png"><p class="p">Три эскиза кухни по вашей планировке</p>
+                    </li>
+                    <li><img src="img/consultation/2.png"><p class="p">Рекомендации по подбору
+						материалови выбору цвета кухни</p>
+                    </li>
+                    <li><img src="img/consultation/3.png"><p class="p">Расчет времени
+						изготовления заказа</p>
+                    </li>
+                     <li><img src="img/consultation/4.png"><p class="p">Расчет стоимости в
+						 рамках выбранного ценового диапазона</p>
+                    </li>
+                </ul>
+            </div>
+        </article>
+    </div>
+</section>    
+    
+    
+    
+ <!-- slider-->  
+<section class="slider">
+    <div class="wrapper">
+        <h1 class="h2">ПОСМОТРИТЕ НА КУХНИ,
+			СОЗДАННЫЕ НАМИ</h1>
+    </div>  
+    <article class="slider_top">
+        <div class="wrapper">
+            <ul class="owl-carousel owl-theme owl">
+                <li>
+                    <img src="img/slider/1_slider.jpg">
+                        <img class="popapcik unu"  src="img/slider/1_slider/1.jpg">
+                        <img class="popapcik doi"  src="img/slider/1_slider/2.jpg">
+                        <img class="popapcik trei" src="img/slider/1_slider/3.jpg">
+                    <ul class="owl_popap">
+                        <li data-caca=".unu"><img src="img/slider/1_slider/1.jpg"></li>
+                        <li data-caca=".doi"><img src="img/slider/1_slider/2.jpg"></li>
+                        <li data-caca=".trei"><img src="img/slider/1_slider/3.jpg"></li>
+                    </ul>
+                </li>
+                
+                <li>
+                    <img  src="img/slider/2_slider.jpg">
+                        <img class="popapcik unu" src="img/slider/2_slider/1.jpg">
+                        <img class="popapcik doi" src="img/slider/2_slider/2.jpg">
+                        <img class="popapcik trei" src="img/slider/2_slider/3.jpg">
+                    <ul class="owl_popap">
+                        <li data-caca=".unu"><img src="img/slider/2_slider/1.jpg"></li>
+                        <li data-caca=".doi"><img src="img/slider/2_slider/2.jpg"></li>
+                        <li data-caca=".trei"><img src="img/slider/2_slider/3.jpg"></li>
+                    </ul>
+                </li> 
+                
+                <li>
+                    <img  src="img/slider/3_slider.jpg">
+                        <img class="popapcik unu" src="img/slider/3_slider/1.jpg">
+                        <img class="popapcik doi" src="img/slider/3_slider/2.jpg">
+                        <img class="popapcik doi" src="img/slider/3_slider/3.jpg">
+                    <ul class="owl_popap">
+                        <li data-caca=".unu"><img src="img/slider/3_slider/1.jpg"></li>
+                        <li data-caca=".doi"><img src="img/slider/3_slider/2.jpg"></li>
+                        <li data-caca=".trei"><img src="img/slider/3_slider/3.jpg"></li>
+                    </ul>
+                </li>
+                
+                 <li>
+                    <img  src="img/slider/4_slider.jpg">
+                        <img class="popapcik unu" src="img/slider/4_slider/1.jpg">
+                        <img class="popapcik doi" src="img/slider/4_slider/2.jpg">
+                        <img class="popapcik doi" src="img/slider/4_slider/3.jpg">
+                    <ul class="owl_popap">
+                        <li data-caca=".unu"><img src="img/slider/4_slider/1.jpg"></li>
+                        <li data-caca=".doi"><img src="img/slider/4_slider/2.jpg"></li>
+                        <li data-caca=".trei"><img src="img/slider/4_slider/3.jpg"></li>
+                    </ul>
+                </li> 
+            </ul>
+        </div>
+    </article>    
+    
+   <!--slider_bottom --> 
+    <article class="slider_bottom">
+        <div class="wrapper">
+            <article class="slider_wrapp clearfix">
+                 <div class="slider_bottom_left">
+                    <div class="button_price" id="form_2">
+                        УЗНАТЬ ЦЕНУ</div>
+                </div> 
+                <div class="slider_bottom_right">
+                 <ul class="slides clearfix">
+                    <li>
+                        <h4>SILVIA</h4>
+                        <p>Изящная кухня в стиле модерн - место, куда хочется возвращаться снова и снова</p>
+                         <div class="slider_button_show clearfix">
+                            <a href="" id="nav-toggle" class="toggle_Show"><div class="burgher"><span></span></div><h6>ПОДРОБНЕЕ</h6></a>
+                        </div>
+                        <p class="hide_p">
+                            В этой кухне необычайно гармонично смотрятся S-образные гнутые фасады в насыщенно-красном цвете в сочетании с белоснежной матовой столешницей, словно волной перетекающей в барную стойку, и монохромным фартуком. Плавные линии подчеркивают логичную завершенность всей мебельной архитектуры, создают единство цвета, формы и фактуры. Сочетание выпуклых и вогнутых глянцевых поверхностей с блеском «металлик» рождают причудливую игру света. Внутреннее оборудование шкафов, хромированная лицевая фурнитура, дверные доводчики, карусели, функциональные выдвижные ящики и корзины создают удобное рабочее пространство.
+                        </p> 
+                       
+                       
+                    </li>
+                    
+                    <li>
+                        <h4>BARCELONA</h4>
+                        <p>Яркий и динамичный дизайн кухни настроит на позитивный день и покорение новых вершин</p>
+                        <div class="slider_button_show clearfix">
+                            <a href="" id="nav-toggle" class="toggle_Show"><div class="burgher"><span></span></div><h6>ПОДРОБНЕЕ</h6></a>
+                        </div>
+                        <p class="hide_p">
+                        Неординарный и свежий взгляд на современную кухню. Ярко-красная столешница из искусственного камня – играет главную партию в этой симфонии красок, а глянцевые черные фасады обрамляют композицию, сдерживая бурный красный цвет. Доминирующее сочетание красного и черного умело разбавлено двумя нижними фасадами под дерево и оригинальным мозаичным фартуком. Готовить на такой кухне – одно удовольствие, посуда и кухонные принадлежности всегда под рукой, интегрированная мойка не занимает много места, современная фурнитура позволяет быстрым и легким движением открыть ящики на всю длину, а необходимая бытовая техника компактно вмещается в пространство кухни, не создавая нагромождения.
+                        </p>
+                    </li>
+                    <li>
+                        <h4>INDIANA</h4>
+                        <p>Элегантная классика с африканским колоритом - кухня для романтичных натур</p>
+                        <div class="slider_button_show clearfix">
+                            <a href="" id="nav-toggle" class="toggle_Show"><div class="burgher"><span></span></div><h6>ПОДРОБНЕЕ</h6></a>
+                        </div>
+                        <p class="hide_p">
+                            Имитация древесной породы африканского зебрано с глянцевой лакировкой на нижних фасадах смотрится свежо и экзотично. Столешница из искусственного камня и стеновая панель кухни выполнены в едином цвете, стильная черная матовая мойка по цветовому решению гармонично подходит к выбранной встроенной технике, функциональные радиусные боковые полки и фасады из стекла придают воздушности, легкости всему ансамблю. В секции под мойкой кухни - практичный многофункциональный шкафчик, а в крайней правой секции предусмотрена встроенная посудомоечная машина, которая легко скрывается за фасадами. Хромированная лента, опоясывающая нижнюю часть гарнитура, создает эффект парящей над поверхностью пола кухни.
+                        </p>
+                        
+                    </li>
+                    <li>
+                        <h4>BERGAMO</h4>
+                        <p>Яркий и динамичный дизайн кухни настроит на позитивный день и покорение новых вершин</p>
+                        <div class="slider_button_show clearfix">
+                            <a href="" id="nav-toggle" class="toggle_Show"><div class="burgher"><span></span></div><h6>ПОДРОБНЕЕ</h6></a>
+                        </div>
+                        <p class="hide_p">
+                        Неординарный и свежий взгляд на современную кухню. Ярко-красная столешница из искусственного камня – играет главную партию в этой симфонии красок, а глянцевые черные фасады обрамляют композицию, сдерживая бурный красный цвет. Доминирующее сочетание красного и черного умело разбавлено двумя нижними фасадами под дерево и оригинальным мозаичным фартуком. Готовить на такой кухне – одно удовольствие, посуда и кухонные принадлежности всегда под рукой, интегрированная мойка не занимает много места, современная фурнитура позволяет быстрым и легким движением открыть ящики на всю длину, а необходимая бытовая техника компактно вмещается в пространство кухни, не создавая нагромождения.
+                        </p>
+                        
+                    </li>
+                </ul>
+            </div>
+              
+            </article>
+        </div>
+    </article>
+    
+</section>    
+<!---slider2 -->    
+<section class="slider2">
+    <div class="wrapper">
+        <h2 class="h2">ВАША КУХНЯ БУДЕТ ИМЕННО ТАКОЙ,
+			КАКОЙ ВЫ ЕЁ СЕБЕ ПРЕДСТАВЛЯЛИ
+        </h2>
+        <p class="p p_padding">Благодаря разнообразию материалов, фактур, расцветок, а также учитывая
+			безграничные возможности обработки поверхностей, мы создадим для вас кухню,
+			о которой вы мечтали: у нас есть все, что для этого нужно.
+        </p>
+        <div class="slider_slick">
+            <ul class="owl-carousel owl-theme owl2">
+                <li><img src="img/slider2/1.jpg"></li>
+                <li><img src="img/slider2/2.jpg"></li>
+                <li><img src="img/slider2/3.jpg"></li>
+                <li><img src="img/slider2/4.jpg"></li>
+                <li><img src="img/slider2/5.jpg"></li>
+                <li><img src="img/slider2/6.jpg"></li>
+            </ul> 
+        </div>
+    </div>
+</section>    
+    
+<!--best kitcher-->    
+<section class="best">
+    <div class="wrapper">
+        <div class="left_sitebar">
+             <h2 class="h2 best_h2">ВАШ ЛУЧШИЙ ВЫБОР НА КАЖДОЙ ИЗ 120 СТРАНИЦ</h2>
+        
+            <p class="p best_p">Получите полный каталог лучших кухонь компании Vesta за 2018 год!</p>
+            <a class="best_link" href="#">Получить каталог</a>
+        </div>
+    </div>
+</section>    
+ 
+    
+<!--work -->    
+<section class="work">
+    <div class="wrapper">
+        <h2 class="h2 wok_h2">КАК МЫ РАБОТАЕМ</h2>
+        <p class="p work_p">Срок изготовления кухни по индивидуальному заказу зависит от
+			спецификации выбранной вами кухни.
+        </p>
+        <p class="bold_p">Как правило, производство кухни завершается в течение месяца, но при
+			заказе сложных изделий (например, гнутых с крашеными фасадами) этот
+			срок может увеличиться до 60 дней.
+        </p>
+        
+        <article>
+            <div class="line"><img src="img/linia.png"></div>
+            <ul class="metki">
+                <li><img src="img/marca_min.png"><span>1</span></li>
+                <li><img src="img/marca_min.png"><span>2</span></li>
+                <li><img src="img/marca_min.png"><span>3</span></li>
+                 <li><img src="img/marca_min.png"><span>4</span></li>
+                 <li><img src="img/marca_min.png"><span>5</span></li>
+                 <li><img src="img/marca_min.png"><span>6</span></li>
+                 <li><img src="img/marca_min.png"><span>7</span></li>
+                 <li><img src="img/marca_max.png"><span>8</span></li>
+            </ul>
+            <ul class="description">
+                <li>
+                    <h6>ВЫЕЗД ЗАМЕРЩИКА</h6>
+                    <p>Наш специалист выезжает к вам,
+						делает замеры, оценивает свойства
+						поверхностей, технические
+						возможности подвода коммуникаций
+                    </p>
+                </li>
+                <li>
+                    <h6>РАЗРАБОТКА ДИЗАЙНА</h6>
+                    <p>В соответствии с вашими
+						пожеланиями, учитывая размеры
+						и планировку кухни, дизайнер
+						разрабатывает 3D дизайн-проект.
+                    </p>
+                </li>
+                <li>
+                    <h6>ЗАКЛЮЧЕНИЕ ДОГОВОРА</h6>
+                    <p>После всех согласований, когда
+						вы полностью уверены в своем
+						выборе, мы заключаем договор и
+						прикладываем к нему спецификацию
+						кухни.
+                    </p>
+                </li>
+                <li>
+                    <h6>ПРОИЗВОДСТВО КУХНИ</h6>
+                    <p>
+                        Все этапы производства
+						осуществляются на территории
+						нашей фабрики под контролем
+						профессиональных технологов с
+						многолетним опытом работы.
+                    </p>
+                </li>
+                <li>
+                   	<h6>ДОСТАВКА НА МЕСТО</h6>
+					<p>Мы доставляем кухню точно по
+						адресу, поднимаем на этаж и
+						заносим ее в квартиру. Каждый блок
+						уже собран и отрегулирован.
+                    </p>
+                </li>
+                <li>
+                    <h6>МОНТАЖ КУХНИ</h6>
+                    <p>
+                       	Сборщик выезжает к вам со всеми
+						необходимыми инструментами,
+						собственным пылесосом и даже своими
+						тапочками. После монтажа специалист
+						убирает образовавшийся мусор.
+                    </p>
+                </li>
+                <li>
+                    <h6>ПОДКЛЮЧЕНИЕ ТЕХНИКИ</h6>
+                    <p>
+                        По предварительной
+						договоренности сборщик
+						подключает имеющуюся
+						встраиваемую технику,
+						коммуникации (вода, слив),
+						освещение.
+                    </p>
+                </li>
+                <li>
+                    <h6>КУХНЯ ГОТОВА</h6>
+                    <p>Вам остается только протереть
+						пыль, расставить кухонную утварь,
+						аксессуары и начать готовить на
+						вашей новой кухне.
+                    </p>
+                </li>
+            </ul>
+        
+        </article>
+    </div>   
+</section>    
+    
+    
+<!--call -->   
+<section class="call">
+    <div class="wrapper">
+        <p class='p call_p'>Сделайте первый шаг к своей идеальной кухне!<span> Оставьте заявку
+			на бесплатный выезд замерщика.</span>
+        </p>
+        <a href="#" class="call_popap_2">Вызвать замерщика</a>
+    </div>
+</section>    
+    
+<!--inclusive -->      
+<section class="inclusive">
+    <div class="wrapper">
+        <h2 class="h2">ВСЕ ВКЛЮЧЕНО: ИСКЛЮЧИТЕЛЬНЫЙ
+			УРОВЕНЬ СЕРВИСА  
+        </h2>
+        <p class="p">Мы делаем все, чтобы процесс выбора, приобретения и эксплуатации
+			кухни был для вас легким и приятным.
+        </p>
+        <ul>
+            <li>
+                <img src="img/inclusive/1.png">
+                <h6 class="h6">Рассрочка на полгода</h6>
+                <p class="p">независимо от стоимости
+					кухни (с 50% предоплатой)
+                </p>
+            </li>
+            <li>
+                <img src="img/inclusive/2.png">
+                <h6 class="h6">Еженедельное
+					SMS-оповещение</h6>
+                <p class="p">о ходе работ в течение всего
+					срока производства
+                </p>
+            
+            </li>
+            <li>
+                <img src="img/inclusive/3.png">
+                <h6 class="h6">Бесплатная подтяжка</h6>
+                <p class="p">узлов и креплений кухни на
+					2, 6 и 12 месяц эксплуатации
+                </p>
+            </li>
+        </ul>
+    </div>
+</section>  
+    
+<!-- guarantee--> 
+<section class="guarantee">
+    <div class="wrapper">
+        <h2 class="h2">ГАРАНТИЯ 7 ЛЕТ!</h2>
+        <p class='p'>Мы уверены в качестве кухонь, потому что <span>являемся производителем</span> и
+			приобретаем все необходимые материалы самостоятельно у проверенных
+			поставщиков.
+        </p>
+        <p class='p'>Наша уверенность подтверждается тем, что за <span>более чем 15 лет работы</span> к
+			нам не поступило ни одной претензии со стороны клиентов.
+        </p>
+        <p class='p'>Вот почему мы даем <span>беспрецедентную гарантию</span> на кухни, произведенные
+			нами: каждый клиент получает <span>7 лет полного гарантийного обслуживания.</span> 
+        </p>
+    </div>
+</section>  
+    
+
+<!-- reviews-->    
+<section class="reviews">
+    <div class="wrapper">
+        <h2 class="h2">ОТЗЫВЫ КЛИЕНТОВ</h2>
+    </div>
+    <div class="reviews_sliders">
+            <ul class="reviews_slider_left">
+                <li><img src="img/reviews/1.jpg"></li>
+                <li><img src="img/reviews/2.jpg"></li>
+                <li><img src="img/reviews/3.jpg"></li>
+                <li><img src="img/reviews/4.jpg"></li>
+                <li><img src="img/reviews/5.jpg"></li>
+                <li><img src="img/reviews/6.jpg"></li>
+                <li><img src="img/reviews/7.jpg"></li>
+            </ul>
+        
+            <ul class="reviews_slider_right">
+                <li>
+                    <img src="img/reviews/icon/1.jpg">
+                    <h3 class="h4">МАКСИМ И ИРИНА АНИСИМОВЫ</h3>
+                    <p class="p review_p">Долго выбирали между компаниями и рады, что остановились на Весте. Мы еще долго не могли определиться, чего именно хотим. Квартира новая, бетонные стены еще, так что вариантов было много, и именно выбрать было сложно, в каждом салоне нас заваливали образцами, какими-то проектами, в итоге мы уходили уставшие, но ничего не выбравшие. А в Весте все получилось по-другому: мы просто поговорили минут десять с дизайнером, она как-то сама нас быстро поняла, а потом буквально на следующий день уже на эл.почту отправила 2 варианта дизайна, причем нам понравились оба. Выбрали в итоге контрастный черно-белый модерновый вариант. Оплатили, кухня была готова чуть больше чем через месяц. Когда привезли, оказалось, что у нас немного изменились размеры, т.к. меняли окно на кухне и немного опустился подоконник, но оказалось, что это не проблема: нам просто немного доработали кухню под новые размеры и все подошло идеально. Сборка тоже порадовала, все за один день успел мастер сделать, без задержек.
+                    </p>
+                    <p class="data">14.06.2014</p>
+                </li>
+                <li>
+                    <img src="img/reviews/icon/2.jpg">
+                    <h3 class='h4'>АЛЕНА РОМАНЮК</h3>
+                    <p class="p review_p">Когда пришла в салон, была уверена, что хочу хайтековскую кухню в светлых цветах и кучей примочек))) Хорошо, что дизайнер меня отговорила!! Сейчас у меня аккуратненькая, я бы даже сказала, минималистичная кухня в стиле «сине-белый”))) Подходит по всем параметрам, идеально вписалась в общий интерьер, и угол хорошо обыгран… Не знаю, как они это делают, но это МОЯ кухня! Мне нравится всё!
+                    </p>
+                    <p class="data">25.06.2014</p>
+                </li>
+                <li>
+                    <img src="img/reviews/icon/3.jpg">
+                    <h3 class="h4">ЕЛЕНА НОВИКОВА</h3>
+                    <p class="p review_p">Здравствуйте! Мне бы очень хотелось оставить отзыв о компании Vesta! (заранее простите за эмоциональность) В марте 2010 года компания изготовила мне замечательную кухню! Наверное, это звучит слишком, но я действительно о такой не могла даже мечтать! Конечно, это вышло недешево, но когда я увидела результат – мне показалось, что я могла бы и доплатить))) Но ладно готовая кухня, но ведь и весь процесс ДО был легким! Правда, при выборе я замучалась, но это того стоило: мне дизайнер показывала столько красивых фасадов и материалов, что я растерялась, и в итоге дизайнер взял инициативу на себя, за что спасибо ей огромнейшее!!! Если бы не она, я бы, наверное, так и не смогла ничего выбрать! Остановились на традиционной кухне из массива, плюс столешница искусственного камня: все такое красивое, друг другу подходящее, ничего лишнего, я раньше такое только в рекламе видела и в кино)) И, что самое интересное, кухня и через 4 года выглядит точно так же (не считая одной царапины, но это я сама «постаралась») А замерщик!!! Это чудо какое-то! У него после замера на листе был подробнейший план со всеми трубами, розетками, порожком и кучей вещей, о которых я вообще ничего не поняла. Сразу учел неровность стены, сразу спросил, буду ли делать выравнивание… У меня же еще планировка необычная, сразу два окна, причем одно огромное, еще и углы эти непрямые… В общем, кучу вопросов вообще задал, мне понравилось! Так что я не удивилась, когда готовая кухня встала, как влитая! В общем, у меня одни положительные эмоции что тогда, что сейчас! Не жалею, что выбрала Vesta, всем советую, показываю, рассказываю, скоро дочке пойдем выбирать!
+                    </p>
+                    <p class="data">25.06.2015</p>
+                </li>
+                <li>
+                    <img src="img/reviews/icon/4.jpg">
+                    <h3 class="h4">ОЛЕГ РЕШЕТНИКОВ</h3>
+                    <p class="p review_p">Работой доволен, кухню изготовили довольно быстро, качественно, нареканий нет ни в чем, все этапы выполнены в срок. Сервис отличный, смс-информирование хорошо налажено, персонал профессиональный, вежливый, ненадоедливый. Цена для меня несущественная. Итог: по всем показателям ставлю «отлично», но пока что кухня почти не используется, ждет окончательного переезда будущей хозяйки. Кстати, забыл отметить, что очень хорошо работают дизайнеры. Я кухню в подарок покупал, сюрпризом. Мне было сложно сориентироваться в этом вопросе, дизайнеры помогли, им выражаю особую благодарность.
+                    </p>
+                    <p class="data">21.03.2017</p>
+                </li>
+                <li>
+                    <img src="img/reviews/icon/5.jpg">
+                    <h3 class="h4">ОЛЬГА СУМЕНКОВА</h3>
+                    <p class="p review_p">Кухня для меня дорогая (почти 200 000 р.), пришлось взять кредит. Выплачиваю до сих пор, но нисколько не жалею, потому что кухню получилась именно такой, как я хотела, очень качественной, красивой, в мою нестандартную планировку с уголком вписалась очень хорошо.</p>
+                    <p class="data">21.06.2018</p>
+                </li>
+                <li>
+                    <img src="img/reviews/icon/6.jpg">
+                    <h3 class="h4">МАРИНА ЛИТВИНОВА</h3>
+                    <p class='p review_p'>Мне все понравилось, кухня получилась замечательная и даже немножко дешевле, чем посчитали изначально. У меня во время изготовления возникли трудности с деньгами, мне пошли навстречу и заменили фурнитуру и аксессуары на менее дорогие аналоги, пересчитали смету, я очень благодарна, что вошли в мое положение. Сейчас кухне уже почти 2 года, была маленькая неприятность с ручкой на пенале, но по гарантии сразу заменили на такую же. Еще понравилось то, что хоть у меня и, наверное, не самая дорогая кухня из тех, что заказывают, со мной все равно возились, я всегда чувствовала, что меня слушают, советуют, пытаются найти лучший вариант.
+                    </p>
+                    <p class="data">25.03.2013</p>
+                </li>
+                <li>
+                    <img src="img/reviews/icon/7.jpg">
+                    <h3 class="h4">НИКОЛАЙ И МАРИНА МАКАРЕНКО</h3>
+                    <p class="p review_p">
+                        Сразу сказали, что хотим ШИКАРНУЮ кухню, чтобы все включено, автоматически включалось/выключалось, вся техника, аксессуары, большой буфет, чтобы все это выглядело солидно, богато и со вкусом. Учитывая, что заказывали в загородный дом в столовую, нам были нужны шкафы под заготовки.. В общем, мы сразу знали, чего хотели. На цену не смотрели, было важно качество во всем и сервис. В итоге всем довольны, минус был только один – задержались по срокам на неделю, но, как мы поняли, это была не вина компании, плюс нам не к спеху, так что ругаться не стали. В целом получили то, что хотели, есть что показать родственникам, друзьям и коллегам, все замечательно.
+                    </p>
+                    <p class="data">15.02.2017</p>
+                </li>
+            </ul>
+    </div>
+</section>  
+    
+    
+    
+ <!--gift -->   
+<section class="gift">
+    <div class="wrapper">
+        <h1 class="h2">ВЫБЕРИТЕ ВАШ ПОДАРОК!</h1>
+        <p class="p">Нам 15 лет! По этому поводу мы дарим подарки всем новым клиентам.
+			Вне зависимости от стоимости вашей кухни вы получаете скидку 15 000 руб.
+			или подарок — кухонную вытяжку!
+        </p>
+        <p class="p p_bold">Вы сможете выбрать любой понравившийся вариант:</p>
+    
+        <div class="gift_slider">
+            <ul class="slider1_gift">
+                <li>
+                    <p class="p_bold">SIEMENS</p>
+                    <p class="p p_slider1">LC 67BE532</p>
+                    <p class="p p_slider2">Цена в магазине</p>
+                    <h1 class="h3_slider1">18 080</h1>
+                    <a class="link1 gift_popap_3" href="#">Выбрать этот подарок</a>
+                    <a class="link2 gift_popap_3" href="#">Выбрать 15 000 руб.</a>
+                </li>
+                <li>
+                    <p class="p_bold">CATA</p>
+                    <p class="p p_slider1">PODIUM 500 NEGRA</p>
+                    <p class="p p_slider2">Цена в магазине</p>
+                    <h1 class="h3_slider1">24 690</h1>
+                    <a class="link1 gift_popap_3" href="#">Выбрать этот подарок</a>
+                    <a class="link2 gift_popap_3" href="#">Выбрать 15 000 руб.</a>
+                </li>
+                <li>
+                    <p class="p_bold">SMEG</p>
+                    <p class="p p_slider1">KSET 610 X</p>
+                    <p class="p p_slider2">Цена в магазине</p>
+                    <h1 class="h3_slider1">27 120</h1>
+                    <a class="link1 gift_popap_3" href="#">Выбрать этот подарок</a>
+                    <a class="link2 gift_popap_3" href="#">Выбрать 15 000 руб.</a>
+                </li>
+                <li>
+                    <p class="p_bold">BOSCH</p>
+                    <p class="p p_slider1">DWB 067A50</p>
+                    <p class="p p_slider2">Цена в магазине</p>
+                    <h1 class="h3_slider1">29 550</h1>
+                    <a class="link1 gift_popap_3" href="#">Выбрать этот подарок</a>
+                    <a class="link2 gift_popap_3" href="#">Выбрать 15 000 руб.</a>
+                </li>
+                <li>
+                    <p class="p_bold">CATA</p>
+                    <p class="p p_slider1">SELENE DT4S 600<br> INOX</p>
+                    <p class="p p_slider2">Цена в магазине</p>
+                    <h1 class="h3_slider1">25 410</h1>
+                    <a class="link1 gift_popap_3" href="#">Выбрать этот подарок</a>
+                    <a class="link2 gift_popap_3" href="#">Выбрать 15 000 руб.</a>
+                </li>
+            </ul>
+            <ul class="slider_gift">
+                <li><img src="img/gift/1.jpg"></li>
+                <li><img src="img/gift/2.jpg"></li>
+                <li><img src="img/gift/3.jpg"></li>
+                <li><img src="img/gift/4.jpg"></li>
+                <li><img src="img/gift/5.jpg"></li>
+            </ul>
+        </div>
+   </div>
+</section>    
+    
+    
+    
+ <!-- secret-->
+<section class="secret">
+    <div class="wrapper">
+        <h2 class="h2">В ЧЕМ НАШ СЕКРЕТ?</h2>
+        <article class="sectret_article">
+            <div class="art_left"><img src="img/bg13.png"></div>
+            <div class="art_rigth">
+                <p class="p">Меня часто спрашивают, почему я начал заниматься кухнями. Зачем еще в 1999 году, во время кризиса, я основал очередную компанию по производству кухонь, если на рынке было достаточно других представителей по более низким ценам?</p>
+                
+                <p class="p">Я всегда знал, что ответить тогда, и говорю то же самое сегодня: кухня для нас — это больше, чем набор шкафов, бытовой техники и посуды. Найти неповторимую изюминку, создать гармонию, повысить комфорт, удовлетворить чувство прекрасного и, наконец, встроить мебель в любую планировку так, чтобы она казалось «влитой» – вот, что нас всегда зажигало и зажигает до сих пор.</p>
+                
+                <p class="p">Но что такое кухня для вас? Произведение искусства или легкость приготовления, классика уюта или смелые линии модерна, отражение характера всего дома или составляющая вашего личного престижа? Что бы вы ни ответили, наша задача – это предвосхищение ваших ожиданий. И мы успешно справляемся с ней уже более 15 лет.</p>
+            </div>
+        </article>
+        <article class="secret_bottom">
+            <img src="img/isc.png">
+            <div>
+                <h3 class="h3">ВИКТОР САЗОНОВ</h3>
+                <p class="p">генеральный директор «Vesta»</p>
+            </div>
+        </article>
+    </div>
+</section>    
+ 
+<!-- contakts -->    
+<section class="contakts">
+    <div class="wrapper">
+        <h2 class="h2">НАШИ КОНТАКТЫ</h2>
+        <ul class="clearfix top_ul">
+            <li>
+                <p class="p p_bold">
+                    Хотите увидеть образцы кухонь и
+					пообщаться с нашими дизайнерами?
+                </p>
+                <p class="p p_kontakt">
+                    Тогда приглашаем вас посетить
+					один из четырех салонов «Vesta» в
+					г. Санкт-Петербург: вам будут рады
+					в каждом из них.
+                </p>
+            </li>
+            <li>
+                <div class="circle_contakts">или</div>
+            </li>
+            <li>
+                <p class="p p_bold">
+                   Вам хочется посмотреть, как именно
+					изготавливаются кухни?
+                </p>
+                <p class="p p_kontakt">
+                    Наше производство находится в
+					Санкт-Петербурге по адресу ул. Чугунная,
+					д. 14., и вы можете посетить фабрику по
+					предварительной записи по телефону.
+                </p>
+            </li>
+        </ul>
+        <div class="contakts_bottom">
+            <p class="p contakts_p">Все вопросы вы можете задать по единому номеру:</p>
+            <h1 class="h1 contakts_h1">8 (812) 241-16-30</h1>
+            <ul class="ul_cont_bottom">
+                <li><p class="p cont_bottom_p">или</p></li>
+                <li><img src="img/kontakt_icon.png"></li>
+                <li><a class="cont_bottom_a" href="#">Закажите звонок менеджера</a></li>
+            </ul>
+        </div>
+    </div>
+</section>   
+    
+	
+<!-- maps-->	
+<section class="maps">
+	<h2 class="h2 maps_h2">АДРЕСА САЛОНОВ</h2>
+	<ul class="owl-carousel owl-theme owl-maps">
+		<li><div id="map">1</div></li>
+		<li><div id="map2">2</div></li>
+		<li><div id="map3">3</div></li>
+		<li><div id="map4">4</div></li>
+	</ul>
+</section>	
+	
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+<!-- end-->    
+<link rel="stylesheet" href="css/main.min.css">	
+	
+<script>	
+function initMap(){
+	
+// id element map
+var map = document.getElementById('map');	
+var map_2 = document.getElementById('map2');
+var map_3 = document.getElementById('map3');	
+var map_4 = document.getElementById('map4');	
+// position
+var poz_1 =	{lat: 46.964251, lng: 31.969102};	
+var poz_2 =	{lat: 47.045770, lng: 31.879321};	
+var poz_3 =	{lat: 46.956679, lng: 32.068284};
+var poz_4 =	{lat: 46.851263, lng: 31.995958};	
+//img metka
+var metka =  "img/metka.png";	
+
+	
+// style map
+var styles =  [{"featureType":"administrative.neighborhood","elementType":"all","stylers":[{"visibility":"simplified"}]},
+					{"featureType":"administrative.land_parcel","elementType":"all","stylers":[{"visibility":"off"}]},
+					{"featureType":"landscape","elementType":"all","stylers":[{"hue":"#FFBB00"},{"saturation":43.400000000000006},
+					{"lightness":37.599999999999994},{"gamma":1}]},{"featureType":"poi","elementType":"all","stylers":[{"hue":"#00ff6a"},
+					{"saturation":-1.0989010989011234},{"lightness":11.200000000000017},{"gamma":1},{"visibility":"simplified"}]},
+					{"featureType":"poi","elementType":"labels","stylers":[{"visibility":"off"}]},
+					{"featureType":"road.highway","elementType":"all","stylers":[{"hue":"#FFC200"},{"saturation":-61.8},
+					{"lightness":45.599999999999994},{"gamma":1}]},{"featureType":"road.arterial","elementType":"all","stylers":[{"hue":"#ff0300"},
+					{"saturation":-100},{"lightness":51.19999999999999},{"gamma":1}]},
+					{"featureType":"road.local","elementType":"all","stylers":[{"hue":"#FF0300"},
+					{"saturation":-100},{"lightness":52},{"gamma":1}]},
+					{"featureType":"transit.line","elementType":"geometry","stylers":[{"visibility":"off"}]},
+					{"featureType":"transit.station","elementType":"labels","stylers":[{"visibility":"simplified"},
+					{"lightness":"31"},{"gamma":"1.58"}]},{"featureType":"water","elementType":"all","stylers":[{"hue":"#0078FF"},
+					{"saturation":-13.200000000000003},{"lightness":2.4000000000000057},{"gamma":1}]}];
+	
+// map option		
+var map = new google.maps.Map(
+	map,
+	{ zoom: 15, center: poz_1, styles: styles }
+);	
+
+	
+var map2 = new google.maps.Map(
+	map_2,
+	{ zoom: 15, center: poz_2, styles: styles }
+);	
+	
+var map3 = new google.maps.Map(
+	map_3,
+	{ zoom: 15, center: poz_3, styles: styles }
+);	
+	
+var map4 = new google.maps.Map(
+	map_4,
+	{ zoom: 15, center: poz_4, styles: styles }
+);	
+	
+	
+	
+	
+	
+//marker 
+var marker_1 = new google.maps.Marker({
+	position: poz_1,
+	map: map,
+	icon: metka
+});	
+	
+	
+var marker_2 = new google.maps.Marker({
+	position: poz_2,
+	map: map2,
+	icon: metka
+});		
+	
+var marker_3 = new google.maps.Marker({
+	position: poz_3,
+	map: map3,
+	icon: metka
+});		
+
+var marker_4 = new google.maps.Marker({
+	position: poz_4,
+	map: map4,
+	icon: metka
+});		
+	
+	
+//end maps	
+};
+	
+</script>	
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA0PtgUyNVgixFjwmlNFF2H38fDKct3RcY&callback=initMap">
+</script>	
+<script src="js/scripts.min.js"></script>
+	
+</body>
+</html>
